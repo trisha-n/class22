@@ -14,7 +14,7 @@ function setup(){
         isStatic: true
     }
     var ball_options ={
-        restitution:3.0
+        restitution:1.0
     }
     ball = Bodies.circle(200,200,10,ball_options);
     ground = Bodies.rectangle(200,390,200,20,ground_options);
